@@ -72,8 +72,12 @@
   ];
 
   function populateGallery(gridId){
+    console.log(`Attempting to populate gallery: ${gridId}`); // Debug log
     const grid = document.getElementById(gridId);
-    if (!grid) return;
+    if (!grid) {
+      console.error(`Gallery grid element not found for ID: ${gridId}`); // Debug log
+      return;
+    }
     const frag = document.createDocumentFragment();
     allImages.forEach((img,i)=>{
       const item = document.createElement('figure');
@@ -82,8 +86,9 @@
       image.loading = 'lazy';
       image.src = img.src;
       image.alt = img.alt + ' ' + (i+1);
-      item.appendChild(image);
       frag.appendChild(item);
+      item.appendChild(image);
+      console.log(`Adding image to ${gridId}: ${image.src}`); // Debug log
     });
     grid.appendChild(frag);
   }
