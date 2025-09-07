@@ -53,23 +53,22 @@
 
   // Gallery using all images from Images folder (static list)
   const allImages = [
-    {src:'https://i.pinimg.com/736x/d5/4f/6d/d54f6d96f0e814060c7eef7b78c1fcc8.jpg', alt:'Event highlight'},
-    {src:'https://i.pinimg.com/736x/d9/b2/30/d9b230f00d860cbfc58b3e7ecb5157fd.jpg', alt:'Meal distribution'},
-    {src:'https://i.pinimg.com/1200x/d4/be/b5/d4beb506ce1c4aa7276c9a44de35aca1.jpg', alt:'Tree plantation'},
-    {src:'https://i.pinimg.com/736x/95/2b/1e/952b1e234ee23caa35e49a5822134888.jpg', alt:'Plantation team'},
-    {src:'https://i.pinimg.com/1200x/ca/12/4c/ca124ccfed0d2842a5ce243cbcfae45f.jpg', alt:'Watering saplings'},
-    {src:'https://i.pinimg.com/1200x/7f/fb/0f/7ffb0f48bad281874abb791d75f5be74.jpg', alt:'Volunteers group'},
-    {src:'https://i.pinimg.com/1200x/d0/bf/fd/d0bffdc8fffce2a055a397babbba6252.jpg', alt:'Serving meals'},
-    {src:'https://i.pinimg.com/736x/3c/98/46/3c9846e14be50eec0e920bd937e05c92.jpg', alt:'Raskbind Foundation'},
-    {src:'https://i.pinimg.com/1200x/3a/85/08/3a8508b37b6eddbfcab9cc0dfb18cd3a.jpg', alt:'Raskbind Foundation logo'},
-    {src:'https://i.pinimg.com/1200x/b6/18/36/b618363312dc543f1363745b6022e1fd.jpg', alt:'Community'},
-    {src:'https://i.pinimg.com/1200x/26/dd/0f/26dd0fde01abadefe730930ca4d59514.jpg', alt:'Community'},
-    {src:'https://i.pinimg.com/736x/d7/41/a1/d741a19b9d92209018736007be6257f8.jpg', alt:'Community'},
-    {src:'https://i.pinimg.com/1200x/00/00/86/0000869d26411dcdae1db09b603c4c53.jpg', alt:'Community'},
-    {src:'https://i.pinimg.com/1200x/e5/eb/cc/e5ebcc7f8896ca7e936bb1a66a1b97e7.jpg', alt:'Community'},
-    {src:'https://i.pinimg.com/1200x/f3/66/66/f36666813f5acc32834d66f09c086a17.jpg', alt:'Background'},
-    {src:'https://i.pinimg.com/736x/ab/d7/b4/abd7b4c965ece5e17b7c631a2fdc95a6.jpg', alt:'Raskbind Foundation'},
-    {src:'https://i.pinimg.com/1200x/34/9a/a5/349aa52565409579e2bfd961a0680771.jpg', alt:'Raskbind Foundation'}
+    {src:'images/Gallery/plantation (2).jpg', alt:'Meal distribution'},
+    {src:'images/Gallery/plantation (3).jpg', alt:'Tree plantation'},
+    {src:'images/Gallery/plantation (4).jpg', alt:'Plantation team'},
+    {src:'images/Gallery/plantation (5).jpg', alt:'Watering saplings'},
+    {src:'images/Gallery/plantation (6).jpg', alt:'Volunteers group'},
+    {src:'images/Gallery/plantation (7).jpg', alt:'Serving meals'},
+    {src:'images/Gallery/plantation (8).jpg', alt:'Raskbind Foundation'},
+    {src:'images/Gallery/plantation (9).jpg', alt:'Raskbind Foundation logo'},
+    {src:'images/Gallery/plantation (10).jpg', alt:'Community'},
+    {src:'images/Gallery/plantation (11).jpg', alt:'Community'},
+    {src:'images/Gallery/plantation (12).jpg', alt:'Community'},
+    {src:'images/Gallery/plantation (13).jpg', alt:'Community'},
+    {src:'images/Gallery/plantation (14).jpg', alt:'Community'},
+    {src:'images/Gallery/plantation (15).jpg', alt:'Background'},
+    {src:'images/Gallery/plantation (16).jpg', alt:'Raskbind Foundation'},
+    {src:'images/Gallery/plantation (17).jpg', alt:'Raskbind Foundation'}
   ];
 
   function populateGallery(gridId){
