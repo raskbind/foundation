@@ -53,22 +53,22 @@
 
   // Gallery using all images from images folder (static list)
   const allImages = [
-    {src:'./images/Gallery/plantation-2.jpg', alt:'Meal distribution'},
-    {src:'./images/Gallery/plantation-3.jpg', alt:'Tree plantation'},
-    {src:'./images/Gallery/plantation-4.jpg', alt:'Plantation team'},
-    {src:'./images/Gallery/plantation-5.jpg', alt:'Watering saplings'},
-    {src:'./images/Gallery/plantation-6.jpg', alt:'Volunteers group'},
-    {src:'./images/Gallery/plantation-7.jpg', alt:'Serving meals'},
-    {src:'./images/Gallery/plantation-8.jpg', alt:'Raskbind Foundation'},
-    {src:'./images/Gallery/plantation-9.jpg', alt:'Raskbind Foundation logo'},
-    {src:'./images/Gallery/plantation-10.jpg', alt:'Community'},
-    {src:'./images/Gallery/plantation-11.jpg', alt:'Community'},
-    {src:'./images/Gallery/plantation-12.jpg', alt:'Community'},
-    {src:'./images/Gallery/plantation-13.jpg', alt:'Community'},
-    {src:'./images/Gallery/plantation-14.jpg', alt:'Community'},
-    {src:'./images/Gallery/plantation-15.jpg', alt:'Background'},
-    {src:'./images/Gallery/plantation-16.jpg', alt:'Raskbind Foundation'},
-    {src:'./images/Gallery/plantation-17.jpg', alt:'Raskbind Foundation'}
+    {src:'../images/Gallery/plantation-2.jpg', alt:'Meal distribution'},
+    {src:'../images/Gallery/plantation-3.jpg', alt:'Tree plantation'},
+    {src:'../images/Gallery/plantation-4.jpg', alt:'Plantation team'},
+    {src:'../images/Gallery/plantation-5.jpg', alt:'Watering saplings'},
+    {src:'../images/Gallery/plantation-6.jpg', alt:'Volunteers group'},
+    {src:'../images/Gallery/plantation-7.jpg', alt:'Serving meals'},
+    {src:'../images/Gallery/plantation-8.jpg', alt:'Raskbind Foundation'},
+    {src:'../images/Gallery/plantation-9.jpg', alt:'Raskbind Foundation logo'},
+    {src:'../images/Gallery/plantation-10.jpg', alt:'Community'},
+    {src:'../images/Gallery/plantation-11.jpg', alt:'Community'},
+    {src:'../images/Gallery/plantation-12.jpg', alt:'Community'},
+    {src:'../images/Gallery/plantation-13.jpg', alt:'Community'},
+    {src:'../images/Gallery/plantation-14.jpg', alt:'Community'},
+    {src:'../images/Gallery/plantation-15.jpg', alt:'Background'},
+    {src:'../images/Gallery/plantation-16.jpg', alt:'Raskbind Foundation'},
+    {src:'../images/Gallery/plantation-17.jpg', alt:'Raskbind Foundation'}
   ];
 
   function populateGallery(gridId){
