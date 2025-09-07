@@ -51,33 +51,29 @@
     obs.observe(el);
   });
 
-  // Gallery using all images from images folder (static list)
+  // Gallery using all images from Images folder (static list)
   const allImages = [
-    {src:'../images/Gallery/plantation-2.jpg', alt:'Meal distribution'},
-    {src:'../images/Gallery/plantation-3.jpg', alt:'Tree plantation'},
-    {src:'../images/Gallery/plantation-4.jpg', alt:'Plantation team'},
-    {src:'../images/Gallery/plantation-5.jpg', alt:'Watering saplings'},
-    {src:'../images/Gallery/plantation-6.jpg', alt:'Volunteers group'},
-    {src:'../images/Gallery/plantation-7.jpg', alt:'Serving meals'},
-    {src:'../images/Gallery/plantation-8.jpg', alt:'Raskbind Foundation'},
-    {src:'../images/Gallery/plantation-9.jpg', alt:'Raskbind Foundation logo'},
-    {src:'../images/Gallery/plantation-10.jpg', alt:'Community'},
-    {src:'../images/Gallery/plantation-11.jpg', alt:'Community'},
-    {src:'../images/Gallery/plantation-12.jpg', alt:'Community'},
-    {src:'../images/Gallery/plantation-13.jpg', alt:'Community'},
-    {src:'../images/Gallery/plantation-14.jpg', alt:'Community'},
-    {src:'../images/Gallery/plantation-15.jpg', alt:'Background'},
-    {src:'../images/Gallery/plantation-16.jpg', alt:'Raskbind Foundation'},
-    {src:'../images/Gallery/plantation-17.jpg', alt:'Raskbind Foundation'}
+    {src:'./Images/Gallery/plantation-2.jpg', alt:'Meal distribution'},
+    {src:'./Images/Gallery/plantation-3.jpg', alt:'Tree plantation'},
+    {src:'./Images/Gallery/plantation-4.jpg', alt:'Plantation team'},
+    {src:'./Images/Gallery/plantation-5.jpg', alt:'Watering saplings'},
+    {src:'./Images/Gallery/plantation-6.jpg', alt:'Volunteers group'},
+    {src:'./Images/Gallery/plantation-7.jpg', alt:'Serving meals'},
+    {src:'./Images/Gallery/plantation-8.jpg', alt:'Raskbind Foundation'},
+    {src:'./Images/Gallery/plantation-9.jpg', alt:'Raskbind Foundation logo'},
+    {src:'./Images/Gallery/plantation-10.jpg', alt:'Community'},
+    {src:'./Images/Gallery/plantation-11.jpg', alt:'Community'},
+    {src:'./Images/Gallery/plantation-12.jpg', alt:'Community'},
+    {src:'./Images/Gallery/plantation-13.jpg', alt:'Community'},
+    {src:'./Images/Gallery/plantation-14.jpg', alt:'Community'},
+    {src:'./Images/Gallery/plantation-15.jpg', alt:'Background'},
+    {src:'./Images/Gallery/plantation-16.jpg', alt:'Raskbind Foundation'},
+    {src:'./Images/Gallery/plantation-17.jpg', alt:'Raskbind Foundation'}
   ];
 
   function populateGallery(gridId){
-    console.log(`Attempting to populate gallery: ${gridId}`); // Debug log
     const grid = document.getElementById(gridId);
-    if (!grid) {
-      console.error(`Gallery grid element not found for ID: ${gridId}`); // Debug log
-      return;
-    }
+    if (!grid) return;
     const frag = document.createDocumentFragment();
     allImages.forEach((img,i)=>{
       const item = document.createElement('figure');
@@ -86,9 +82,8 @@
       image.loading = 'lazy';
       image.src = img.src;
       image.alt = img.alt + ' ' + (i+1);
-      frag.appendChild(item);
       item.appendChild(image);
-      console.log(`Adding image to ${gridId}: ${image.src}`); // Debug log
+      frag.appendChild(item);
     });
     grid.appendChild(frag);
   }
