@@ -53,7 +53,7 @@
 
   // Gallery using all images from Images folder (static list)
   const allImages = [
-    {src:'images/Gallery/plantation (2).jpg', alt:'Meal distribution'},
+    {src:'https://thumbs.dreamstime.com/b/people-hand-helping-plant-tree-working-together-farm-conc-concept-save-world-94990713.jpg', alt:'Meal distribution'},
     {src:'images/Gallery/plantation (3).jpg', alt:'Tree plantation'},
     {src:'images/Gallery/plantation (4).jpg', alt:'Plantation team'},
     {src:'images/Gallery/plantation (5).jpg', alt:'Watering saplings'},
